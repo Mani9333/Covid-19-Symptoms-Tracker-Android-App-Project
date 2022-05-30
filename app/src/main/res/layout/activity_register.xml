@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_Register">
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="15"
+        android:hint="Username"
+        android:inputType="textEmailAddress"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"/>
+
+    <EditText
+        android:id="@+id/fname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/uname"
+        android:hint="First name"
+        android:ems="15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fname"
+        android:hint="Last name"
+        android:ems="15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:id="@+id/pword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lname"
+        android:hint="Password"
+        android:ems="15"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="register" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:layout_below="@id/register"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity_RespRate">
+
+    <TextView
+        android:id="@+id/respratetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/descr_resp"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/respratebtn"
+        android:layout_marginTop="50px"
+        android:paddingLeft="50px"
+        android:paddingRight="50px"
+        android:textAlignment="center"
+        android:textFontWeight="@integer/material_motion_duration_long_1"/>
+
+    <Button
+        android:id="@+id/respratebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:ems="15"
+        android:text="@string/start_measure_resp"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/upresp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/save_result_resp"
+        android:ems="15"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/respratebtn"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/back_resp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/back_resp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>

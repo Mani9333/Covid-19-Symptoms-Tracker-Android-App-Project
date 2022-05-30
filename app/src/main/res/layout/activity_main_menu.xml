@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/respratebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:ems="18"
+                android:layout_marginTop="180dp"
+                android:text="Respiratory Rate" />
+
+            <Button
+                android:id="@+id/hratebtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/respratebtn"
+                android:layout_centerHorizontal="true"
+                android:ems="18"
+                android:layout_marginTop="10dp"
+                android:text="Heart Rate calculate" />
+
+
+
+
+            <Button
+                android:id="@+id/symptoms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hratebtn"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:ems="18"
+                android:text="Symptoms data" />
+
+            <Button
+                android:id="@+id/loc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/symptoms"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:ems="18"
+                android:text="capture gps data and upload" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
